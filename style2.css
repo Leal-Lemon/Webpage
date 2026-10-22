@@ -1,0 +1,100 @@
+<!-- wrap {width:1000px;margin:0 auto;background:#00ddc0;} -->
+
+#background{
+background:#0A0D0A;
+}
+
+
+#main-nav a{
+ padding: 0.5em 1em;
+ display: block;
+}
+
+
+#header {
+font: 10px arial, sans-serif;
+text-align: center;
+background:#00ddc0;
+background-image: linear-gradient(to bottom, #00ddc0, #0eeadf, #00ddc0);
+border-radius: 5px;
+border: 10px solid black;
+}
+
+#nav {
+text-align: center;
+background-image: linear-gradient(to bottom, black, #0A000A, black);
+border-radius: 8px;
+line-height: 40px;
+height: 40px;
+width: 98%;
+margin: 20px;
+
+}
+
+
+#nav li {
+font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+display:block;
+float:left;
+display:block;
+width:190px;
+text-align: center;
+}
+
+#nav li a{
+text-decoration: none;
+}
+
+
+#main {
+font-family: 'Oswald', sans-serif;
+background:#00ddc0;
+float:left;
+height: 500px;
+width: 550px;
+border-radius: 8px;
+border: 3px solid black;
+padding: 20px;
+margin: 10px;
+}
+
+
+#middle {
+font-family: 'Oswald', sans-serif;
+background:#0eeadf;
+float:left;
+height: 500px;
+width:550px;
+border-radius: 8px;
+border: 3px solid black;
+padding: 20px;
+margin: 10px;
+}
+
+
+#sidebar {
+font-family: 'Oswald', sans-serif;
+background:#1FFFDF;
+float:left;
+height: 500px;
+width:550px;
+border-radius: 8px;
+border: 3px solid black;
+padding: 20px;
+margin: 10px;
+}
+
+}
+#sidebar li a{
+color:white;
+text-decoration: none;
+}
+
+#footer {
+clear: both;
+font-family: "Arial", Times, sans-serif;
+text-align: center;
+background: #00ddc0;
+border-radius: 8px;
+}
