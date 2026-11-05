@@ -53,6 +53,7 @@ p {
   width:100px;
 }
 #nav li a{
+  color: var(--color-tertiary);
   text-decoration: none;
 }
 
