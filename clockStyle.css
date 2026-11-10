@@ -18,13 +18,13 @@
 }
 
 #min {
-    background-image: url(images/minhand.png);
+    background-image: url(images/minhand-pink.png);
 }
 
 #hour {
-    background-image: url(images/hourhand.png);
+    background-image: url(images/hourhand-pink.png);
 }
 
 #sec {
-    background-image: url(images/sechand.png);
+    background-image: url(images/sechand-black.png);
 }
