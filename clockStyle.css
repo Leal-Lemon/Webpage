@@ -8,7 +8,8 @@
 
 #clock {
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin: 20px auto 0 auto;
     background-image: url(clockface.png);
 }
 
