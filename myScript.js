@@ -13,6 +13,12 @@ function update() {
     min.style.transform = `rotate(${m/60}turn)`;
     hour.style.transform = `rotate(${h/12}turn)`;
 
+    _DateAndTime(); //updates date and time
 }
-update();
+
+const _DateAndTime = () => {
+  document.querySelector("#currentTime").innerHTML = new Date().toLocaleDateString('en-gb', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true, second60: true});
+} //gets date and time (date order is the uk standard (dd/mm/yy))
+
 setInterval(update);
+update();
