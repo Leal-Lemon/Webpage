@@ -78,7 +78,7 @@ p {
   font-size: 20px;
   line-height: 25px;
   float:center;
-  height: 500px;
+  max-height: 30em;
   width: 100%;
   border-radius: 8px;
   border: 3px solid black;
@@ -93,6 +93,7 @@ p {
 }
 
 #middle {
+    /*height: 25em;*/
   color: var(--color-tertiary);
 }
 
