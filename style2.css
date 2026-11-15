@@ -76,7 +76,7 @@ p {
 
 #main, #middle {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 1.1em;
   float:center;
   max-height: 30em;
   width: 100%;
