@@ -2,6 +2,7 @@
   --color-primary: #00ddc0;
   --color-secondary: #0A000A;
   --color-tertiary: #FF8FF8;
+  --color-gradient: #0eeadf;
 }
 
 
@@ -18,11 +19,12 @@ p {
   margin-bottom: 1em;
 }
 
-
-#dark-mode{
-  --color-primary: #FF8FF8;
-  --color-secondary: #FFFF00;
-  --color-tertiary: #FFFFF8;
+#theme{
+  background-color: var(--color-primary);
+  border-color: var(--color-tertiary);
+  border-radius: 8px;
+  position: relative;
+  top: -9px;
 }
 
 #background{
@@ -31,7 +33,7 @@ p {
 
 #header {
   font: 10px arial, sans-serif;
-  background-image: linear-gradient(to bottom, var(--color-primary), #0eeadf, var(--color-primary));
+  background-image: linear-gradient(to bottom, var(--color-primary),  var(--color-gradient), var(--color-primary));
   border-radius: 5px;
   border: 10px solid black;
 }
@@ -61,6 +63,15 @@ p {
 #nav li a{
   color: var(--color-tertiary);
   text-decoration: none;
+}
+
+.flexbox{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  flex-wrap:wrap;
+  flex-direction:row;
 }
 
 .container {
@@ -93,7 +104,6 @@ p {
 }
 
 #middle {
-    /*height: 25em;*/
   color: var(--color-tertiary);
 }
 

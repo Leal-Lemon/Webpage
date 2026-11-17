@@ -5,7 +5,7 @@
 <head>
   <meta charset=“utf-8”>
   <link rel="stylesheet" href="style2.css">
-  <link rel="javascript" href="ModeSwitch.js">
+  <script src="ModeSwitch.js"></script>
   <link rel="icon" type="image/x-icon" href="images/favicon-lemon.ico">
   <!-- Changes the top icon in the browser -->
 </head>
@@ -15,15 +15,14 @@
 </style>
 
 <body>
-
   <div id="background">
 
     <div id="header">
-    <h1><nav>
+    <h1>
       <ul class="main-nav">
         <p>Homepage</p>
       </ul>
-    </nav></h1>
+    </h1>
     </div>
     <!-- Title -->
 
@@ -31,10 +30,11 @@
     <!-- Spaces out text blocks -->
     <div id="nav">
       <ul>
-        <li><a href="https://leal-lemon.github.io/Webpage/index">Home</a></li>
-        <li><a href="https://leal-lemon.github.io/Webpage/Hobbies">Hobbies</a></li>
-        <li><a href="">Page 3</a></li>
-        <li><a href="https://leal-lemon.github.io/Webpage/Clock">Clock</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Labs.html">Labs</a></li>
+        <li><a href="Hobbies.html">Hobbies</a></li>
+        <li><a href="Clock.html">Clock</a></li>
+        <button id="theme">Theme Switch</button>
       </ul>
     </div>
     <!-- Nav Bar -->
@@ -47,7 +47,7 @@
         <p>Hello and welcome to my website</p>
         <p>My name is Leah and I'm a CS Game Dev student. More about me on the hobbies page</p>
         <img src="GIFs/room-blue.gif" alt="Description of GIF" width=70%;  height: 80px/>
-   <!-- <p> <button onclick="LightMode()">Toggle dark mode</button> </p> -->
+        <!-- <p> <button onclick="LightMode()">Toggle dark mode</button> </p> -->
         <div id="padding"></div>
       </div>
 
@@ -57,7 +57,7 @@
         <iframe width= 90%;  height=50%
         src="https://youtube.com/embed/pd6dCUiqo2w" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allow="autoplay; encrypted-media"></iframe>
         <!-- "embed" needed before in the link -->
-        <p>(A link to a Hatsune Miku clip)</p>
+        <p>(A link to a youtube clip)</p>
       </div>
 
 
@@ -72,11 +72,17 @@
 
     </div>
 
+  <div class="container">
+    <div id="main">
+      <h2>About this site:</h2>
+      <p> I themed this site around Hatsune Miku</p>
+    </div>
+  </div>
 
     <div id="footer">
       <p>Coursework 1 - 11/2026</p>
     </div>
 
   </div>
-
+<script>button();</script>
 </body>
