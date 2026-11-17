@@ -5,15 +5,10 @@
   --color-gradient: #0eeadf;
 }
 
-
 div * {
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
-
-/* #header, #main, #middle {
-  text-align: center;
-} */
 
 p {
   margin-bottom: 1em;
